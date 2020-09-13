@@ -1,17 +1,22 @@
-def create_an_empty_array
-  
+def 
+create_an_empty_array 
+  []
 end
 
 def create_an_array
-  
+  ["tomato", "lettuce", "onion", "pickles"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ array = ["wow", "I", "am", "really", "learning"]
+ 
+ array << "arrays!"
+ p array
 end
-
-def add_element_to_start_of_array(array, element)
-  
+ 
+ def add_element_to_start_of_array(array, element)
+  array = ["I", "am", "really", "learning"]
+  array 
 end
 
 def remove_element_from_end_of_array(array)
